@@ -1,9 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>DELI-VERY</title>
-    </head>
-    <body>
-        <h1>Hello World!!!</h1>
-    </body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+        <meta charset="utf-8"/>
+            <title>Giant Burger</title>
+	</head>
+
+	<body>
+		<main>
+            <h1 class="head">Welcome to Giant Burger</h1>
+        </main>
+
+		<section id="info">
+        <div class="wrapper">
+            <h2>Select Burger</h2>
+            This is where you execute burger selection.
+            <h5> </h5>
+            <table>
+                <thead>
+                <tr>
+                    <th>Super Giant Burger</th>
+                    <th>Chicken Giant Burger</th>
+                    <th>Vegan Giant Burger</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="box a">
+                            <img src="/img/super.png" alt="Span" height="200" title="Super Giant Burger" ><br>
+                            <ul>
+                                <li>Your Best Choice!</li>
+                                <li>Grass-Fed Beef</li>
+                                <li>Organic Cheddar Cheese, Eggs</li>
+                                <li>Grilled Onion, Shredded Lettuce, Tomato, Pickles</li>
+                            </ul>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="box b">
+                            <img src="/img/chicken.png" alt="Span" height="200" title="Chicken Giant Burger" ><br>
+                            <ul>
+                                <li>Fresh Chicken Breast!</li>
+                                <li>Organic White Cheddar Cheese</li>
+                                <li>Fresh or Grilled Onion</li>
+                                <li>Shredded Lettuce, Tomato, Pickles</li>
+                            </ul>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="box c">
+                            <img src="/img/vegan.png" alt="Span" height="200" title="Vegan Giant Burger" ><br>
+                            <ul>
+                                <li>Best for Vegetarian!</li>
+                                <li>Vegan Cheddar</li>
+                                <li>Fresh or Grilled Onion</li>
+                                <li>Shredded Lettuce, Tomato, Pickles</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <br>
+
+		</section>
+
+		<main>
+			<section id="contact">
+			<h2>Customer Information</h2>
+            This is where you provide necessary information.
+            <h3>Delivery Information</h3>
+
+        	<form>
+        		<p>
+    				<label for="First- and lastname">Fullname</label><br>
+    				<input id="First- and lastname" name="fn" required="required" placeholder=" First- and lastname" type="text">
+				</p>
+				<p>
+    				<label for="Street">Street</label><br>
+    				<input id="Street" name="ln" placeholder=" Street name" type="text">
+				</p>
+				<p>
+    				<label for="House">House</label><br>
+    				<input id="House" name="ln" placeholder=" House number" type="text">
+				</p>
+				<p>
+					<label for="email">E-Mail</label><br>
+   			 		<input id="email" name="em" required="required" placeholder=" E-mail address" type="email">
+				</p>
+
+                <p>
+                    <label for="Payment">Payment options</label><br>
+                    <select id="Payment" name="rcp">
+                        <option>Credit Card</option>
+                        <option>Debit Card</option>
+                        <option>Paypal</option>
+                        <option>Swish</option>
+                    </select>
+                </p>
+
+				<p>
+                    <input type="radio" name="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="Non-binary "> Non-binary<br>
+                    <input type="radio" name="gender" value="Undisclosed"> Undisclosed<br>
+				</p>
+        	</form>
+            <br>
+    		</section>
+            <div id="button">
+                <input type="submit" value="Place my order!">
+                <script src="/js/vue.js"></script>
+                <script src="/js/js_script.js"></script>
+            </div>
+		</main>
+        <br>
+        
+		<footer>
+			<small>&copy; 2020 Giant Burger Inc.</small>
+		</footer>
+
+	</body>
 </html>

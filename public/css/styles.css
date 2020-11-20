@@ -1,0 +1,111 @@
+
+.head {
+	color: #0D47A1;
+    font-family: 'Exo 2';font-size: 48px;
+    text-align: center;
+    background-image:url("/img/banner.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+body{
+    font-family: 'Exo 2';
+    font-size: 20px;
+    margin: 0px 4px;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+}
+
+input[type="text"] {
+	border-radius: 5px;
+    height: 25px;
+	font-family: 'Exo 2';
+}
+
+input[type="email"] {
+	border-radius: 5px;
+    height: 25px;
+	font-family: 'Exo 2';
+}
+
+
+.wrapper {
+    display: grid;
+    background-color: #0D47A1;
+    color: #BBDEFB;
+    border-radius: 10px;
+    padding: 1em 1em;
+    margin: auto;
+    width:90%;
+    position: relative;
+    border: 2px dotted #bbd0f1;
+ }
+
+
+ img {
+ 	height: 200px;
+ 	width: auto;
+ }
+
+ .box {
+     color: #BBDEFB;
+     font-size: 15px;
+ 	 margin: auto;
+ 	 text-align: center;
+ }
+
+ .a {
+     grid-column: 1;
+     grid-row: 1;
+     display: block;
+ }
+
+ .b {
+     grid-column: 2;
+     grid-row: 1;
+     display: block;
+ }
+
+ .c {
+     grid-column: 3;
+     grid-row: 1;
+     display: block;
+ }
+
+input[type="radio"] {
+   text-align: left;
+}
+
+#contact {
+    text-align: left;
+	font-family: 'Exo 2';
+	margin: auto;
+	border-radius: 10px;
+	padding: 1em 1em;
+	width: 90%;
+	color: #0D47A1;
+	font-size: 20px;
+	background-color: #90caf9;
+    border: 2px dotted #1f3251;
+}
+
+button{
+	background-color: #90caf9;
+	width: 100px;
+	height: 50px;
+	border-radius: 4px;
+	font-family: 'Exo 2';
+}
+
+button:hover {
+	 cursor:pointer;
+
+}
+
+footer {
+	color: #0D47A1;
+    text-align: center;
+}
+
